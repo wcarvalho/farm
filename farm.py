@@ -277,7 +277,7 @@ class FARM(hk.RNNCore):
     module_size: int,
     nmodules: int,
     module_attn_size: int = None,
-    module_attn_heads: int=4,
+    module_attn_heads: int=0,
     shared_module_attn: bool=True,
     projection_dim: int=16,
     image_attn: bool=True,
