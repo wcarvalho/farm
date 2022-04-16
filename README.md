@@ -1,8 +1,8 @@
 # FARM
 Official codebase for:
 
-[Feature-Attending Recurrent Modules (FARM)](https://arxiv.org/abs/2112.08369?context=cs.AI)
-Wilka Carvalho, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan
+[Feature-Attending Recurrent Modules (FARM)](https://arxiv.org/abs/2112.08369?context=cs.AI)<br>
+Wilka Carvalho, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan<br>
 https://arxiv.org/abs/2112.08369
 
 <img src="images/architecture-intro.png" alt="FARM" style="zoom:40%;" />
