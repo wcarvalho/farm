@@ -1,5 +1,7 @@
 # FARM
-Feature-Attending Recurrent Modules with an RL Agent based on the [ACME](https://github.com/deepmind/acme) codebase
+Official codebase for [Feature-Attending Recurrent Modules (FARM)](https://arxiv.org/abs/2112.08369?context=cs.AI) with an RL Agent based on the [ACME](https://github.com/deepmind/acme) codebase.
+
+<img src="images/farm.png" alt="FARM" style="zoom:40%;" />
 
 
 # Install
@@ -33,3 +35,19 @@ make train_asynch
 Notes:
 - this runs multiple actors
 - actor/evaluator/learner all run in parallel thanks to ACME
+
+
+
+## Cite
+
+If you make use of this code in your own work, please cite our paper:
+
+````
+```
+@article{carvalho2021feature,
+  title={Feature-Attending Recurrent Modules for Generalizing Object-Centric Behavior},
+  author={Carvalho, Wilka and Lampinen, Andrew and Nikiforou, Kyriacos and Hill, Felix and Shanahan, Murray},
+  journal={arXiv preprint arXiv:2112.08369},
+  year={2021}
+}```
+````
