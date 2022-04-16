@@ -30,12 +30,14 @@ See Makefile for an example.
 
 ## Synchronous
 ```
+conda activate farm
 make train_sync
 ```
 
 
 ## Asynchronous
 ```
+conda activate farm
 make train_async
 ```
 
