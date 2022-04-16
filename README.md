@@ -42,12 +42,11 @@ Notes:
 
 If you make use of this code in your own work, please cite our paper:
 
-````
 ```
 @article{carvalho2021feature,
   title={Feature-Attending Recurrent Modules for Generalizing Object-Centric Behavior},
   author={Carvalho, Wilka and Lampinen, Andrew and Nikiforou, Kyriacos and Hill, Felix and Shanahan, Murray},
   journal={arXiv preprint arXiv:2112.08369},
   year={2021}
-}```
-````
+}
+```
