@@ -1,8 +1,15 @@
 # FARM
-Official codebase for [Feature-Attending Recurrent Modules (FARM)](https://arxiv.org/abs/2112.08369?context=cs.AI) with an RL Agent based on the [ACME](https://github.com/deepmind/acme) codebase.
+Official codebase for:
 
-<img src="images/farm.png" alt="FARM" style="zoom:40%;" />
+[Feature-Attending Recurrent Modules (FARM)](https://arxiv.org/abs/2112.08369?context=cs.AI)
+Wilka Carvalho, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan
+https://arxiv.org/abs/2112.08369
 
+<img src="images/architecture-intro.png" alt="FARM" style="zoom:40%;" />
+
+**Abstract**: To generalize in object-centric tasks, a reinforcement learning (RL) agent needs to exploit the structure that objects induce. Prior work has either hard-coded object-centric features, used complex object-centric generative models, or updated state using local spatial features. However, these approaches have had limited success in enabling general RL agents. Motivated by this, we introduce Feature-Attending Recurrent Modules (FARM), an architecture for learning state representations that relies on simple, broadly applicable inductive biases for capturing spatial and temporal regularities. FARM learns a state representation that is distributed across multiple modules that each attend to spatiotemporal features with an expressive feature attention mechanism. This enables FARM to represent diverse object-induced spatial and temporal regularities across subsets of modules. We hypothesize that this enables an RL agent to flexibly recombine its experiences for generalization. We study task suites in both 2D and 3D environments and find that FARM better generalizes compared to competing architectures that leverage attention or multiple modules.
+
+Includes R2D2-based RL Agent based on the [ACME](https://github.com/deepmind/acme) codebase.
 
 # Install
 ```
