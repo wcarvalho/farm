@@ -26,7 +26,7 @@ ImportError: libpython3.9.so.1.0: cannot open shared object file: No such file o
 
 See Makefile for an example.
 
-# Run FARM w/ R2D2 on BSUITE
+# Run FARM w/ R2D2 on BabyAI
 
 ## Synchronous
 ```
@@ -62,3 +62,4 @@ If you make use of this code in your own work, please cite our paper:
 
 ## Todo
 - [ ] test attention between modules during update
+- [ ] info in readme about how to use with own environment
