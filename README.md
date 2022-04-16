@@ -30,13 +30,13 @@ See Makefile for an example.
 
 ## Synchronous
 ```
-make train_synch
+make train_sync
 ```
 
 
 ## Asynchronous
 ```
-make train_asynch
+make train_async
 ```
 
 Notes:

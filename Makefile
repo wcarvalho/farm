@@ -9,8 +9,8 @@ export TF_FORCE_GPU_ALLOW_GROWTH=true
 
 train_synch:
 	CUDA_VISIBLE_DEVICES=$(cuda) \
-	python -m ipdb -c continue train_synch.py
+	python -m ipdb -c continue train_sync.py
 
 train_asynch:
 	CUDA_VISIBLE_DEVICES=$(cuda) \
-	python -m ipdb -c continue train_asynch.py
+	python -m ipdb -c continue train_async.py
