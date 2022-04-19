@@ -1,7 +1,7 @@
-# FARM
+# Feature-Attending Recurrent Modules (FARM)
 Official codebase for:
 
-[Feature-Attending Recurrent Modules (FARM)](https://arxiv.org/abs/2112.08369?context=cs.AI)<br>
+[Feature-Attending Recurrent Modules for Generalizing Object-Centric Behavior](https://arxiv.org/abs/2112.08369?context=cs.AI)<br>
 Wilka Carvalho, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan<br>
 https://arxiv.org/abs/2112.08369
 
