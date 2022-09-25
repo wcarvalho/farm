@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Feature-Attending Recurrent Modules.">
+  <meta name="keywords" content="Modular, RL, Successor Features">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feature-Attending Recurrent Modules</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Feature-Attending Recurrent Modules Facilitate Generalization Across Object-centric Tasks</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            To generalize across object-centric tasks, a reinforcement learning (RL) agent needs to exploit the structure that objects induce. Prior work has either hard-coded object-centric features, used complex object-centric generative models, or updated state using local spatial features. However, these approaches have had limited success in enabling general RL agents. Motivated by this, we introduce “Feature-Attending Recurrent Modules” (FARM), an architecture for learning state representations that relies on simple, broadly applicable inductive biases for representing diverse object-induced spatiotemporal regularities. FARM learns a state representation that is distributed across multiple modules that select their own spatiotemporal observation features to update with. We hypothesize that distributing state across modules enables an RL agent to flexibly recombine its experiences for generalization. We study task suites in both 2D and 3D environments and find that FARM better generalizes compared to competing architectures that leverage attention or multiple modules.
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+        <div class="content has-text-justified">
+          <div class="content has-text-centered">
+            <img src="images/architecture-intro.png"
+                   class="interpolation-image"
+                   width="50%"
+                   alt="Interpolate start reference image."/>
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              Overview of FARM. (a) FARM learns an agent state representation that is distributed across n recurrent mod- ules. (b) By distributing agent state across multiple modules, FARM is able to represent different object-centric task reg- ularities, such as navigating around obstacles or picking up goal keys, across subsets of modules. We hypothesize that this enables a deep RL agent to flexibly recombine its experience for generalization.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="content has-text-justified">
+        <div class="content has-text-centered">
+          <img src="images/environments.png"
+                 class="interpolation-image"
+                 width="100%"
+                 alt="Interpolate start reference image."/>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            We study three environments with different structural regularities induced by objects. In the Ballet environment, tasks share regularities induced by object motions; in the KeyBox environment, they share regularities induces by object configurations; and in the Place environment, tasks share regularities induces by 3D objects. The Ballet and KeyBox environments pose learning challenges for long-horizon memory and require generalizing to more objects. The KeyBox and Place environments pose learning challenges in obstacle navigation and requires generalizing to a larger map. We provide videos of our agent performing these tasks in the supplementary material.
+          </p>
+        </div>
+      </div>
+
+  </div>
+
+    <!--/ Animation. -->
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+    @article{carvalho2021feature,
+      title={Feature-Attending Recurrent Modules for Generalization in Reinforcement Learning},
+      author={Carvalho, Wilka and Lampinen, Andrew and Nikiforou, Kyriacos and Hill, Felix and Shanahan, Murray},
+      journal={arXiv preprint arXiv:2112.08369},
+      year={2021}
+    }
+</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Borrowed from <a href="https://github.com/nerfies/nerfies.github.io">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
